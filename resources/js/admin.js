@@ -1,9 +1,9 @@
-var its = {};
+﻿var its = {};
 $(function(){
    var contentHeight = contH(['.class_information>h4', '#searchForm'], 145);
     $.jgrid.defaults.styleUI = 'Bootstrap';
 
-    //屏幕发生变化的时候计算表格高度
+    //屏幕发生变化的时候计算表格高度   
     $(window).bind('resize',
     function() {
         var width = $('.jqGrid_wrapper').width();
