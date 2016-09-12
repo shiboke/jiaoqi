@@ -1,0 +1,372 @@
+body {
+	padding: 0;
+	background-color: white;
+}
+/* 鍐呭鍏辩敤 */
+.crumbs {
+	font: 14px/42px microsoft yahei, "微软雅黑";
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 22px;
+	text-indent: 20px;
+	border-bottom: 1px solid #dee2ed;
+	width: 100%;
+	color: #596575;
+	margin-top: 5px;
+}
+
+.curmbs.manage {
+	margin-bottom: 11px;
+}
+
+.btn-add {
+	width: auto;
+	float: right;
+	cursor: pointer;
+}
+
+.btn-add .icon {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.content-show {
+	height: 100%;
+	overflow-y: auto;
+	background-color: #F1F6FC;
+}
+
+.toolbar {
+	margin-bottom: 7px;
+}
+
+.toolbar {
+	height: 34px;
+}
+
+.toolbar .input-select {
+	width: 114px;
+	float: left;
+	margin-right: 4px;
+}
+
+.toolbar .input-search {
+	width: 354px;
+}
+/* manage */
+.manage-tit {
+	height: 44px;
+	font: 14px/44px microsoft yahei, "寰蒋闆呴粦";
+	font-weight: normal;
+	overflow: hidden;
+	position: relative;
+}
+
+.manage-tit:before {
+	width: 100%;
+}
+
+.manage-tit .manage-name {
+	color: #88929f;
+	float: left;
+	margin: 0 10px;
+}
+
+.manage-tit .triangle {
+	float: right;
+	position: static;
+	margin: 20px 34px 0 20px;
+}
+
+.dashed {
+	margin: 22px 62px 0 90px;
+	border-bottom: 1px dashed #DEE2ED;
+}
+
+.dashed.ml-14 {
+	margin-left: 76px;
+}
+
+.manage-tit.toggle+.manage-list {
+	display: none;
+}
+
+.manage-list:after {
+	content: "";
+	clear: both;
+	display: block;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+}
+
+.manage-list li {
+	width: 210px;
+	height: 70px;
+	float: left;
+	position: relative;
+	background-color: white;
+	margin: 5px 1px 9px 21px;
+	padding: 15px 0 0 59px;
+	box-sizing: border-box;
+	box-shadow: 0 0 4px 1px rgba(0,0,0, .2);
+}
+
+.manage-list li:hover .admin-control {
+	display: block;
+}
+
+.admin-icon {
+	position: absolute;
+	top: 50%;
+	left: 28px;
+	margin-top: -10px;
+}
+
+.manage-list .admin-name {
+	color: #596575;
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+
+.manage-list .admin-msg {
+	font-size: 12px;
+	color: #BFBFBF;
+}
+
+.admin-control {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.admin-mask {
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+	position: absolute;
+	left: 0;
+	top: 0;
+	filter: alpha(opacity=80);
+	background-color: #4DACFE;
+}
+
+.admin-btn {
+	height: 26px;
+	position: absolute;
+	top: 50%;
+	margin-top: -13px;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.admin-btn div {
+	margin: 0 9px;
+}
+
+/*  */
+.scrollbar-k {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.content-show {
+	width: 100%;
+	padding-right: 20px;
+}
+
+.toolbar .list,.toolbar .maps {
+	color: white;
+	display: inline;
+	float: right;
+	background-color: #8a9fba;
+	font-size: 14px;
+	text-align: center;
+	line-height: 34px;
+	width: 114px;
+	height: 34px;
+}
+
+body {
+	font-family: "寰蒋闆呴粦","Microsoft YaHei", Verdana, sans-serif, "SimSun";
+}
+
+#userlist .edit {
+	margin-left: 26%;
+}
+
+#userlist .del {
+	margin-right: 36%;
+	float: right
+}
+
+.backcolor {
+	background-color: #f1f6fc;
+}
+
+.backblock {
+	display: inline-block !important;
+}
+
+.hidden {
+	display: none;
+}
+
+#userlist .assign {
+	display: none;
+}
+
+.systemadmin {
+	font: 14px/42px microsoft yahei;
+	font-size: 14px;
+	font-weight: bold;
+	height: 29px;
+	line-height: 22px;
+	text-indent: 20px;
+	border-bottom: 1px solid #dee2ed;
+	width: 100%;
+	color: #596575;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+#searchForm input {
+	height: 32px;
+}
+
+.templete_unload {
+	width: 49%;
+	display: inline-block;
+}
+
+.templete_unload>span {
+	cursor: pointer
+}
+
+.admin_sy .win_sumDay {
+	border-top: 1px solid rgb(222, 226, 237);
+	padding: 5px 0;
+	text-indent: 18px;
+}
+
+.admin_sy .input-date {
+	width: 115px
+}
+
+.win_sumDay span {
+	margin-right: 15px;
+}
+
+.admin_sy #searchForm {
+	margin-bottom: 6px;
+}
+
+.holidaySet .holidayName {
+	width: 60px;
+	display: inline-block
+}
+
+.win_sumDay .line {
+	width: 24px;
+	vertical-align: middle;
+	display: inline-block;
+	border-bottom: 1px solid rgb(222, 226, 237);
+	margin: 0px 0px !important;
+}
+
+.holidaySet {
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-moz-box-sizing: border-box;
+ /* Firefox */
+	-webkit-box-sizing: border-box;
+ /* Safari */
+	display: none
+}
+
+.admin_sy .seltct-div {
+	height: 34px;
+}
+
+.Sadmin_B #sea-btn2 {
+	width: 150px;
+	height: 100%;
+	color: #fff;
+	background-color: #b4b4b4;
+	font-size: 14px;
+	text-align: center;
+	padding: 6px 0;
+	border: 0;
+}
+
+.Sadmin_B {
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.win_sumDay.ccc>div {
+	width: 32%;
+	display: inline-block
+}
+
+.ccc span {
+	vertical-align: top;
+	line-height: 35px;
+}
+
+#loading {
+	position: absolute;
+	top: 0%;
+	left: 30%;
+	z-index: 198910166;
+}
+
+#loading img {
+	width: 400px;
+}
+
+#classnum {
+	width: 100px;
+	float: left;
+}
+
+#btn_min,#btn_appSet {
+	padding: 0 20px;
+	height: 34px;
+	border-radius: 5px;
+	margin-left: 10px;
+	border: 1px solid #CCC;
+	background-color: #4FC7FF;
+	color: white;
+}
+
+#btn_min:hover,#btn_appSet:hover {
+	opacity: .7;
+	color: #333;
+	background-color: #39aef5;
+	color: block;
+}
+
+#version_num {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+#version_num span {
+	padding: 0 5px;
+}
+
+#login_index .lines span {
+	padding-right: 10px !important;
+}

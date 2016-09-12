@@ -1,0 +1,691 @@
+/* common */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+h1, h2, h3, h4, h6, h6, strong {
+	font-size: 100%;
+}
+
+div, dl, li {
+	word-break: break-all;
+}
+
+body, html {
+	height: 100%;
+}
+
+body {
+	padding: 60px 3px 33px 165px;
+	box-sizing: border-box;
+	background-color: #eeeeee;
+}
+
+textarea {
+	resize: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.fn {
+	float: none;
+}
+
+.pa {
+	position: absolute;
+}
+
+.pr {
+	position: relative;
+}
+
+.pf {
+	position: fixed;
+}
+
+.ps {
+	position: static;
+}
+
+b, i, em {
+	font-style: normal;
+}
+/* 驴貌录脺 */
+.wrapper {
+	height: 100%;
+}
+
+#header, #sidebar, #footer {
+	position: fixed;
+}
+
+#header, #sidebar {
+	top: 0;
+}
+
+#sidebar, #footer {
+	left: 0;
+}
+
+#header {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	left: 25px;
+	background-color: #4FC7FF;
+	z-index: 1;
+	box-shadow: -3px 1px 5px rgba(0,0,0, .3);
+	padding-right: 45px;
+	box-sizing: border-box;
+}
+
+#logo {
+	width: 152px;
+	;
+    height: 24px;
+	position: absolute;
+	left: 32px;
+	top: 0%;
+}
+/* #logo{
+    width:152px;;
+    height:24px;
+    margin-top:-12px;
+} */
+#sidebar {
+	width: 160px;
+	height: 100%;
+	background-color: #374D62;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 75px;
+}
+
+#in-side>ul:last-child {
+	margin-bottom: 50px;
+}
+
+#in-side {
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 92px;
+	padding-bottom: 50px;
+}
+
+#in-side>a {
+	display: block;
+	height: 45px;
+	color: #5C899C;
+	padding-left: 51px;
+	position: relative;
+	font: 14px/45px microsoft yahei, "脦垄脠铆脩脜潞脷";
+	text-decoration: none;
+}
+
+.school {
+	display: block;
+	text-indent: 64px;
+	color: #6091a1;
+	background-color: #263644;
+	display: none;
+	position: relative;
+	font: 14px/45px microsoft yahei, "脦垄脠铆脩脜潞脷";
+}
+
+.school li {
+	height: 30px;
+	line-height: 30px;
+}
+
+.school li:hover {
+	color: #b0feff
+}
+
+#in-side a:hover, #in-side .current {
+	background-color: #263644;
+	color: white;
+}
+
+.school>a {
+	position: relative;
+}
+
+.school .icon {
+	margin-left: 25px !important;
+}
+
+#in-side .icon {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	margin-top: -9px;
+	left: 25px;
+	background: url(../images/icon.png) no-repeat;
+}
+
+#in-side .school .icon {
+	top: 152%;
+}
+
+#in-side .icon-class {
+	background-position: 0 -40px;
+}
+
+#in-side .icon-msg {
+	background-position: 0 -80px;
+}
+
+#in-side .icon-grade {
+	background-position: 0 -120px;
+}
+
+#in-side .icon-classroom {
+	background-position: 0 -160px;
+}
+
+#in-side .icon-teacher {
+	background-position: 0 -200px;
+}
+
+#in-side .icon-stat {
+	background-position: 0 -240px;
+}
+
+#in-side .icon-maintain {
+	background-position: 0 -280px;
+}
+
+#in-side .icon-repairs {
+	background-position: 0 -320px;
+}
+
+#in-side .icon-user {
+	background-position: 0 -360px;
+}
+
+#in-side .icon-searcher {
+	background-position: 0 -680px;
+}
+
+#in-side .icon-area {
+	background-position: 0 -400px;
+}
+
+#in-side .icon-setting {
+	background-position: 0 -440px;
+}
+
+#in-side .icon-log {
+	background-position: 0 -480px;
+}
+
+#in-side .icon-bind {
+	background-position: 0 -520px;
+}
+
+#in-side .icon-bind_small {
+	background-position: 0 -520px;
+}
+
+#in-side .icon-tMsg {
+	background-position: 0 -560px;
+}
+
+#in-side .icon-online {
+	background-position: 0 -600px;
+}
+
+#in-side .icon-school {
+	background-position: 0 -640px;
+}
+
+#in-side .icon-msgS {
+	background-position: 0 -680px;
+}
+
+#in-side a:hover .icon-home, #in-side .current .icon-home {
+	background-position: 0 -20px;
+}
+
+#in-side a:hover .icon-class, #in-side .current .icon-class {
+	background-position: 0 -60px;
+}
+
+#in-side a:hover .icon-msg, #in-side .current .icon-msg {
+	background-position: 0 -100px;
+}
+
+#in-side a:hover .icon-grade, #in-side .current .icon-grade {
+	background-position: 0 -140px;
+}
+
+#in-side a:hover .icon-classroom, #in-side .current .icon-classroom {
+	background-position: 0 -180px;
+}
+
+#in-side a:hover .icon-teacher, #in-side .current .icon-teacher {
+	background-position: 0 -220px;
+}
+
+#in-side a:hover .icon-stat, #in-side .current .icon-stat {
+	background-position: 0 -260px;
+}
+
+#in-side a:hover .icon-maintain, #in-side .current .icon-maintain {
+	background-position: 0 -300px;
+}
+
+#in-side a:hover .icon-repairs, #in-side .current .icon-repairs {
+	background-position: 0 -340px;
+}
+
+#in-side a:hover .icon-user, #in-side .current .icon-user {
+	background-position: 0 -380px;
+}
+
+#in-side a:hover .icon-searcher, #in-side .current .icon-searcher {
+	background-position: 0 -700px;
+}
+
+#in-side a:hover .icon-area, #in-side .current .icon-area {
+	background-position: 0 -420px;
+}
+
+#in-side a:hover .icon-setting, #in-side .current .icon-setting {
+	background-position: 0 -460px;
+}
+
+#in-side a:hover .icon-log, #in-side .current .icon-log {
+	background-position: 0 -500px;
+}
+
+#in-side a:hover .icon-bind, #in-side .current .icon-bind {
+	background-position: 0 -540px;
+}
+
+#in-side a:hover .icon-tMsg, #in-side .current .icon-bind {
+	background-position: 0 -580px;
+}
+
+#in-side a:hover .icon-online, #in-side .current .icon-online {
+	background-position: 0 -620px;
+}
+
+#in-side a:hover .icon-school, #in-side .current .icon-school {
+	background-position: 0 -660px;
+}
+
+#in-side a:hover .icon-msgS, #in-side .current .icon-msgS {
+	background-position: 0 -700px;
+}
+
+#footer {
+	width: 100%;
+	height: 34px;
+	font: 14px/34px microsoft yahei, "脦垄脠铆脩脜潞脷";
+	color: #596575;
+	border-top: 1px solid #E3E3E3;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	box-shadow: -1px -1px 3px rgba(0,0,0, .1);
+}
+
+#main {
+	height: 100%;
+    /* background-color:white; */
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: medium none;
+}
+
+#login {
+	height: 100%;
+	padding: 0 43px 0 19px;
+	float: right;
+	max-width: 95px;
+	position: relative;
+	color: white;
+	white-space: nowrap;
+	cursor: pointer;
+	font: 14px/60px microsoft yahei, "脦垄脠铆脩脜潞脷";
+	box-sizing: content-box;
+}
+
+#login.selected {
+	background-color: #32B1EC;
+}
+
+#login .name {
+	width: 100%;
+	overflow: hidden;
+	text-align: right;
+	text-overflow: ellipsis;
+}
+
+#login .triangle {
+	top: 50%;
+	right: 25px;
+	border-top: 5px solid #374D61;
+	margin-top: -1px;
+}
+/* #haslogin{
+	padding-top:20px;
+} */
+#login.selected .triangle {
+	border-top: none;
+	border-bottom: 5px solid #374D61;
+	margin-top: -2px;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border: 4px solid transparent;
+	position: absolute;
+	opacity: .5;
+	filter: alpha(opacity=50);
+}
+
+.triangle-b {
+	border-top: 5px solid #374D61;
+	margin-top: -1px;
+}
+
+.triangle-t {
+	border-bottom: 5px solid #374D61;
+	margin-top: -6px;
+}
+
+.triangle-r {
+	border-left: 5px solid #374D61;
+	margin-top: -3px;
+}
+
+.triangle-l {
+	border-right: 5px solid #374D61;
+	margin-top: -3px;
+}
+/* 碌脟脗陆碌炉麓掳 */
+.login_layer {
+	font: 14px/34px microsoft yahei;
+	text-align: center;
+	color: red;
+}
+
+#loginError,#pwdError {
+	font: 14px/34px microsoft yahei;
+	text-align: center;
+	color: red;
+}
+
+.hidden {
+	display: none
+}
+
+.layer-login {
+	position: absolute;
+	border: 1px solid #DCDCDC;
+	background: white;
+	right: 27px;
+	top: 62px;
+	color: #596575;
+	min-width: 306px;
+}
+
+.layer-login h2 {
+	height: 56px;
+	margin: 7px 20px 4px;
+	border-bottom: 1px solid #DCDCDC;
+	font: 16px/56px microsoft yahei;
+}
+
+.layer-login .lines span {
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+
+.layer-login .lines .input {
+	width: 188px;
+}
+
+.layer-login .btn {
+	width: 130px;
+}
+
+.layer-login .lines-msg {
+	margin-bottom: 13px;
+	padding: 0 20px;
+	font: 14px/16px microsoft yahei, "脦垄脠铆脩脜潞脷";
+}
+
+.layer-login h2+.lines-msg {
+	margin-top: 13px;
+}
+
+.layer-login .lines-msg span {
+	margin-right: 8px;
+}
+
+.layer-login .btn-bg {
+	height: 58px;
+}
+
+.layer-login .lines {
+	margin-bottom: 5px;
+}
+/* 脛脷脠脻鹿虏脫脙 */
+.crumbs {
+	font: 14px/42px microsoft yahei, "脦垄脠铆脩脜潞脷";
+	font-size: 14px;
+	font-weight: bold;
+	height: 29px;
+	line-height: 22px;
+	text-indent: 20px;
+	border-bottom: 1px solid #dee2ed;
+	width: 100%;
+	color: #596575;
+	margin-top: 5px;
+}
+
+.btn-add {
+	width: auto;
+	float: right;
+	cursor: pointer;
+	font-weight: 400;
+	margin-right: 7px;
+	position: relative;
+	top: 1px;
+	font-size: 14px;
+}
+
+.class_information>h4>#addclass>span {
+	font-weight: 400;
+}
+
+body {
+	overflow-x: hidden
+}
+
+#teacher_top>.export,#teacher_top>.pos {
+	float: right;
+	font-weight: 400;
+	margin-top: 5px;
+}
+
+.btn-add .icon {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.in-a {
+	color: #6091a1;
+}
+
+.in-a.current, .in-a:hover {
+	color: #B0FEFF;
+}
+
+.tools {
+	float: right;
+	line-height: 34px;
+}
+
+.tools div {
+	float: right;
+	margin-left: 30px;
+	box-sizing: content-box;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.tools div span {
+	vertical-align: sub;
+	margin-right: 10px;
+}
+
+#haslogin .btn-success,#password .btn-success {
+	float: left
+}
+/* 虏芒脢脭鹿枚露炉脤玫 */
+#sidebar {
+	overflow-y: auto;
+}
+
+.Times {
+	color: #596575;
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+}
+
+#CT {
+	color: #4EC7FF;
+}
+
+.MarG {
+	margin: 0 5px;
+}
+
+.MarGin {
+	margin: 5px 5px 0 5px !important;
+}
+
+#SWFUpload_0 {
+	left: 0
+}
+
+input[type="checkbox"], input[type="radio"] {
+	display: none;
+}
+
+#sub-jqGrid input[type="checkbox"] {
+	display: inline-block;
+}
+
+.class_float_bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 2;
+	display: none;
+}
+
+/* 寮�瀹氬埗 */
+a{
+	cursor: pointer;
+text-decoration: none;
+}
+
+.titled{
+	margin: 20px 0px 10px;
+}
+.edit_subject{
+	color: white;
+display: inline;
+float: right;
+background-color: #8a9fba;
+font-size: 14px;
+text-align: center;
+line-height: 34px;
+margin-right: 5px;
+width: 114px;
+height: 34px;
+cursor: pointer;
+  -moz-border-radius: 4px; /* Firefox */
+  -webkit-border-radius: 4px; /* Safari 鍜�Chrome */
+border-radius: 4px;
+}
+
+.clickfn{
+	padding: 0px 10px;
+}
+
+.red {
+    color: #ff4e53;
+}
+
+.green {
+	color:#4ace67;
+}
+
+.layui-layer-btn{
+	text-align: center;
+padding: 0 30px 10px;
+pointer-events: auto;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #8A9FBA;
+    border-color: #8A9FBA;
+}
+
+.btn-success:hover {
+	opacity: 0.9;
+    background-color: #8A9FBA;
+    border-color: #8A9FBA;
+}
+
+.wxShow {
+	overflow: hidden;
+white-space: pre;
+padding-right: 2px;
+line-height: 1.42857143;
+vertical-align: top;
+}
+/* .ui-jqgrid-bdiv tbody>tr:nth-child(2n-1){
+	background-color:#ccc; 
+} */
